@@ -11,7 +11,7 @@ html,body {
   font-family: 'Roboto', 'Helvetica', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
   // font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
   // font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
   // overflow: hidden;
 }
 
@@ -23,9 +23,8 @@ a {
   transition: all  .4s ease;
 
   &:hover {
-    color: $font-color-default;
-    background-color: #1a1a1a;
-    text-decoration: none;
+    color: #000;
+    text-decoration: underline;
   }
 }
 

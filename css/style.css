@@ -408,7 +408,7 @@ html, body {
   background-color: #ccc;
   color: #fff;
   font-family: 'Roboto', 'Helvetica', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
-  font-size: 15px; }
+  font-size: 14px; }
 
 a {
   color: #fff;
@@ -417,21 +417,24 @@ a {
   -o-transition: all .4s ease;
   transition: all  .4s ease; }
   a:hover {
-    color: #fff;
-    background-color: #1a1a1a;
-    text-decoration: none; }
+    color: #000;
+    text-decoration: underline; }
 
 .clearfix:after {
   content: "";
   display: block;
   clear: both; }
 
+.l-header {
+  padding: 60px; }
+  .l-header h1 {
+    font-size: 18px; }
+  .l-header .profile {
+    font-size: 12px; }
+
 .l-main {
   max-width: 100%;
-  padding: 80px 60px 80px 60px; }
-  .l-main h1 {
-    font-size: 16px;
-    margin-bottom: 60px; }
+  padding: 0 0 60px 60px; }
   .l-main .profile {
     margin-bottom: 60px; }
     .l-main .profile .profile__timeline {
