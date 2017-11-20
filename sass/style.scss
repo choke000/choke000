@@ -1,0 +1,35 @@
+@import '_normalize';
+@import '_reset';
+@import '_base';
+
+
+.l-main {
+    max-width: 100%;
+    padding: 80px 60px 80px 60px;
+
+    h1 {
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+
+    .profile {
+        margin-bottom: 60px;
+
+        .profile__timeline {
+            width: 100%;
+            margin-bottom: 60px;
+
+            dt {
+                display: block;
+                margin-right: 20px;
+                float: left;
+                clear: left;
+            }
+
+            dd {
+                display: block;
+                float: left;
+            }
+        }
+    }
+}

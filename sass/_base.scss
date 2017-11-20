@@ -1,0 +1,36 @@
+$font-color-default: #fff;
+
+
+html,body {
+  height: 100%;
+  padding: 0;
+  line-height: 1.6;
+  letter-spacing: .05em;
+  background-color: #ccc;
+  color: $font-color-default;
+  font-family: 'Roboto', 'Helvetica', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+  // font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+  // font-weight: 700;
+  font-size: 15px;
+  // overflow: hidden;
+}
+
+a {
+  color: $font-color-default;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all  .4s ease;
+
+  &:hover {
+    color: $font-color-default;
+    background-color: #1a1a1a;
+    text-decoration: none;
+  }
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
