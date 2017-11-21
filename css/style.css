@@ -403,11 +403,13 @@ table {
 html, body {
   height: 100%;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.8;
   letter-spacing: .05em;
   background-color: #ccc;
   color: #fff;
   font-family: 'Roboto', 'Helvetica', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 14px; }
 
 a {
@@ -428,9 +430,10 @@ a {
 .l-header {
   padding: 60px; }
   .l-header h1 {
-    font-size: 18px; }
-  .l-header .profile {
-    font-size: 12px; }
+    font-size: 16px; }
+  .l-header .note {
+    font-size: 11px;
+    margin-bottom: 30px; }
 
 .l-main {
   max-width: 100%;
