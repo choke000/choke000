@@ -4,13 +4,13 @@ $font-color-default: #fff;
 html,body {
   height: 100%;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.8;
   letter-spacing: .05em;
   background-color: #ccc;
   color: $font-color-default;
   font-family: 'Roboto', 'Helvetica', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
-  // font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
-  // font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
   // overflow: hidden;
 }

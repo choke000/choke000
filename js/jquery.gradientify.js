@@ -24,7 +24,7 @@
             angle: '45deg', // Gradient angle
             fps: 30, // Frames per second
             gradients: {}, // Gradients
-            transition_time: 5 // Transition time
+            transition_time: 8 // Transition time
         };
 
     // The actual plugin constructor
